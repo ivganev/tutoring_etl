@@ -1,0 +1,1 @@
+for filename in ../queries/*; do psql -f ${filename}; done
